@@ -1,8 +1,8 @@
 import data from "./data.js";
+
 const container = document.getElementById("users-container")
-console.log(data);
 const users = JSON.parse(data)
-console.log(users[0])
+
 
 for (let i = 0; i < users.length; i++) {
 

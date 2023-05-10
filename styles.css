@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background: radial-gradient(circle at 100%, #030129, #19043c 50%, #eee 75%, #170956 75%);
 }
 #users-container{
     display: flex;
@@ -23,6 +23,7 @@ div{
     margin: 5px;
     text-align: center;
     
+    
 }
 
 img{
@@ -41,6 +42,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-decoration: underline;
+    box-shadow: 3px 3px 6px blue;
     color: darkblue;
     font-size: 36px;
     font-weight: bold;    
